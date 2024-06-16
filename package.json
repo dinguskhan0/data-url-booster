@@ -1,0 +1,17 @@
+{
+  "name": "data-url-booster",
+  "version": "1.0.0",
+  "private": true,
+  "author": "dinguskhan0",
+  "license": "MIT",
+  "source": "/public/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true
+  }
+}
