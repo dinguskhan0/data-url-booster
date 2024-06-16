@@ -7,7 +7,7 @@
   "source": "/public/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url ."
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
