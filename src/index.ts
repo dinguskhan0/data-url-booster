@@ -14,7 +14,7 @@ async function register() {
     await new Promise((r) => setTimeout(r, 3000))
     navigator.serviceWorker.register(
       new URL('/public/sw.ts', import.meta.url),
-      { type: 'module', scope: '/' }
+      { type: 'module' }
     )
   }
 }
