@@ -2,6 +2,9 @@
 
 evaluate data URLs in a secure context using service workers
 
+> ## work-in-progress note
+> this is a work in progress, but _is_ fully functional. upcoming changes include making the default page prettier (e.g. display error codes, basic API usage, etc) and possibly adding a more powerful API in addition to the existing data URL syntax.
+
 ## IMPORTANT! security disclaimer
 
 this is a **demo/proof-of-concept project**, and therefore **does not implement
