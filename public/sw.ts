@@ -16,7 +16,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin === location.origin) {
     const dataURL = url.searchParams.get('data')
     if (dataURL) {
-      const split = dataURL.split(',', 2)
+      const split = dataURL.split(',', 1)
       const data = split[1]
       const header = split[0].split(';')
       const mime = header.filter((v) => v !== 'base64')
